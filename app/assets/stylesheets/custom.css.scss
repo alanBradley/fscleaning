@@ -1,0 +1,238 @@
+/* 
+color pallette 
+
+black = 			#222222 - text
+white = 			#ffffff - space
+blue = 				#1c5d99 - heading text
+tourquise = 	#639fab - call to actions
+grey-blue = 	#bbcde5 - social icons background
+
+*/
+
+body,html{
+ height:100%;
+ font-size: 15px !important;
+}
+.container{
+ /* min-height:100%; */
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.container h3{
+	color: #1c5d99;
+}
+.container h1 {
+  color: #1c5d99;
+  font-weight: 200;
+  font-size: 32px;
+}
+.container h2{
+	color: #1c5d99;
+	font-weight: 200;
+}
+
+.container p{
+  color: #222222;
+}
+
+#bootstrap-overrides .panel-title {
+  color: #1c5d99;
+  font-weight: 300;
+}
+
+#bootstrap-overrides div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#bootstrap-overrides ul {
+list-style-type: none;
+}
+
+.panel-blue{
+	background-color: #337ab7!important;
+	color: white;
+	text-align: center;
+}
+
+.row.padding h3 {
+	color: #337ab7;
+	font-weight: bold;
+}
+
+.padding-bot {
+    padding-bottom: 10px;
+}
+
+.blue-border {
+	border: 2px solid #68a4c4;
+}
+
+.carousel{
+	border: 2px solid #68a4c4;
+}
+
+.carousel-caption h3{
+  color: white !important;
+}
+
+.navbar {
+	border: 2px solid #68a4c4;
+  border: 0px;
+}
+
+#bootstrap-overrides .navbar navbar-default  {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1c5d99;
+  border: 0px;
+}
+
+#bootstrap-overrides .navbar-brand, .container-fluid  {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1c5d99;
+  border: 0px;
+}
+
+#bootstrap-overrides .navbar-collapse{
+border-top:0px !important;
+ box-shadow:none;
+}
+
+/* removes shadow from navbar default */
+#bootstrap-overrides .navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 0px 0px rgba(0,0,0,.075);
+  -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 0px 0px rgba(0,0,0,.075);
+}
+
+#bootstrap-overrides .navbar-header {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1c5d99;
+  border: 0px;
+}
+
+#bootstrap-overrides .navbar-inner {
+   border: 0px;
+  }
+
+#bootstrap-overrides .navbar-default .navbar-nav>li>a{
+  color: #1c5d99;
+  border: 0px;
+}
+
+.about-image {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+
+.contact-image {
+  width: 80%;
+  padding: 25px 0px 0px 100px;
+}
+
+.no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.padding {
+	padding-top: 10px;
+}
+
+.padding-bottom {
+	padding-bottom: 20px;
+}
+
+/* -- Footer -- */
+
+#bootstrap-overrides-foot .panel {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    /* box-shadow: 0 1px 2px rgba(0,0,0,.05); */
+}
+#bootstrap-overrides-foot .panel-default {
+    /* border-color: #ddd; */
+}
+#bootstrap-overrides-foot .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+    /* box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+}
+
+#bootstrap-overrides-foot .panel-body {
+  color: #1c5d99;
+  padding: 0 0;
+  font-size: 12px;
+}
+
+
+.footer-links {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 0 0;
+    float: left;
+}
+
+.footer-links-icons {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0;
+    float: left;
+}
+
+.footer-links a {
+    padding: 0 5px;
+}
+
+/* call to action button */
+
+#bootstrap-overrides .button {
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+    line-height: 60px;
+    padding: 0px 12px;
+    margin: 10px 10px;
+    text-align: center;
+    border: 0;
+    transition: all 1.0s ease 0s;
+}
+
+#bootstrap-overrides .button:hover {
+  background: #EC971F;
+  font-size: 22px;
+  margin: 20px 25px 25px 25px;
+
+}
+
+/*-- Gallery -- */
+
+img.gallery {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img.gallery:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
